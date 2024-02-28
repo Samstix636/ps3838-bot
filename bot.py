@@ -51,3 +51,5 @@ def parse_bb_tips():
             data['period_id'] = bet['period_id']
             data['start_time'] = datetime.fromtimestamp(bet['started_at']-3600).strftime('%Y-%m-%dT%H:%M:%SZ')
             bb_events.append(data)
+
+
