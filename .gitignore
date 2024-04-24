@@ -1,2 +1,4 @@
 *.txt
 *.json
+*.rdp
+live_bot.py
